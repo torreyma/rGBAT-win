@@ -15,10 +15,10 @@ suppressMessages(lapply(packages, require, character.only = TRUE))
 ###unzip file###
 ################
 
-###path of zip file###
-# zip_path <- "C:/Users/mtorrey/git-local-repos/rGBAT-win/initial-install/NYCEM_packages.zip"
+###path of zip file, dos way###
+zip_path <- "C:/Users/mtorrey/git-local-repos/rGBAT-win/initial-install/NYCEM_packages.zip"
 # Linuxy/git bash version:
-zip_path <- "~/git-local-repos/torreyma/rGBAT-win/initial-install/NYCEM_packages.zip"
+#zip_path <- "~/git-local-repos/torreyma/rGBAT-win/initial-install/NYCEM_packages.zip"
 
 tmpdir <- tempdir()
 
