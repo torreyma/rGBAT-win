@@ -16,9 +16,12 @@ suppressMessages(lapply(packages, require, character.only = TRUE))
 ################
 
 ###path of zip file###
-zip_path <- "./NYCEM_packages.zip" ## This is the file relative to the root of the git repo
+zip_path <- "rGBAT-temp_packages.zip" ## This is the file relative to the root of the git repo
 
-tmpdir <- tempdir()
+#tmpdir <- tempdir() ## trying to do this in tempdir is breaking things, 
+	# instead, let't put the files in home:
+	tmpdir <- Sys.getenv("HOME")
+
 
 unzip(zip_path, exdir = tmpdir)
 
