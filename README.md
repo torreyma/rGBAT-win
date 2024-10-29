@@ -22,5 +22,10 @@ This git repo provides R packages that will allow you to use NYC DCP's powerful 
 
 [^1]: (I do not have Admin permissions on my only Windows box, so I haven't actually tested any of this! If you do try this, let me know how it goes.)
 
+## License and credits
+* The original package, rGBAT, was written by Gretchen Culp (https://github.com/gmculp), initially exclusively for use on DOHMH's RHEL R server. (rGBAT-win simply extends its use to generalized Windows for the public.)
+* This package is released under an MIT license (see LICENSE file).
+* Geosupport Desktop Edition™ copyrighted by the New York City Department of City Planning. This product is freely available to the public with no limitations. 
+
 
 
