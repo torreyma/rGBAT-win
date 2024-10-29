@@ -2,7 +2,7 @@
 This git repo provides R packages that will allow you to use NYC DCP's powerful [Geosupport](https://www.nyc.gov/site/planning/data-maps/open-data/dwn-gde-home.page) geocoding software in R on Windows.
 
 ## Installation
-1. First, you need to manually download NYC's geosupport version 20B from Bytes of the Big Apple:
+
     * Search for "Geosupport Desktop Edition™ - Windows version (64-bit)" on NYC DCP's [BYTES of the BIG APPLE™ Archive](https://www.nyc.gov/site/planning/data-maps/open-data/bytes-archive.page) page.
     * Or try this url for direct download: https://www.nyc.gov/assets/planning/download/zip/data-maps/open-data/gde_20b_x64.zip 
         * (Should work if DCP hasn't changed anything.)
